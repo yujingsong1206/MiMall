@@ -20,7 +20,7 @@
           </div>
           <div class="tips">
             <div class="sms" @click="register">手机短信登录/注册</div>
-            <div class="reg">立即注册<span>|</span>忘记密码？</div>
+            <div class="reg"><div @click="register">立即注册</div><span>|</span><div @click="register">忘记密码？</div></div>
           </div>
         </div>
       </div>
@@ -69,13 +69,14 @@ export default {
     },
     ...mapActions(['saveUserName']),
     register(){
-      this.axios.post('/user/register',{
-        username:'admin1',
-        password:'admin1',
-        email:'admin1@163.com'
-      }).then(()=>{
-        Message.success('注册成功');
-      })
+      Message.warning('暂不支持该功能');
+      // this.axios.post('/user/register',{
+      //   username:'admin1',
+      //   password:'admin1',
+      //   email:'admin1@163.com'
+      // }).then(()=>{
+      //   Message.success('注册成功');
+      // })
     }
   }
 }
@@ -145,6 +146,9 @@ export default {
           }
           .reg{
             color:#999999;
+            div{
+              display: inline-block;
+            }
             span{
               margin:0 7px;
             }

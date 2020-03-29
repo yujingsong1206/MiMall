@@ -11,7 +11,7 @@
             <a href="" target="_blank">赞助商4</a><span>|</span>
             <a href="" target="_blank">赞助商5</a>
         </div>
-        <div class="copyright">Copyright ©2020 <span class="domain">mi.futurefe.com</span> All Rights Reserved.</div>
+        <div class="copyright">Copyright ©2020 <span class="domain">http://www.yujsong.cn/</span> All Rights Reserved | 滇ICP备19003414号</div>
     </div>
 </template>
 <script>
