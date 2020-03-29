@@ -26,6 +26,7 @@
       </div>
     </div>
     <div class="footer">
+      个人学习使用
       <div class="footer-link">
         <a href="" target="_blank">赞助商1</a><span>|</span>
         <a href="" target="_blank">赞助商2</a><span>|</span>
@@ -33,7 +34,7 @@
         <a href="" target="_blank">赞助商4</a><span>|</span>
         <a href="" target="_blank">赞助商5</a>
       </div>
-      <p class="copyright">Copyright ©2019 mi.futurefe.com All Rights Reserved.</p>
+      <div class="copyright">Copyright ©2020 <span class="domain">http://www.yujsong.cn/</span> All Rights Reserved | 滇ICP备19003414号</div>
     </div>
   </div>
 </template>
