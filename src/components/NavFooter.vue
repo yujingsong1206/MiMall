@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="footer-logo">
             <img src="/imgs/logo-footer.png" alt="">
-            <p>小米商城</p>
+            <p>小米商城 个人学习使用</p>
         </div>
         <div class="footer-link">
             <a href="" target="_blank">赞助商1</a><span>|</span>
